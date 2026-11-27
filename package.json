@@ -1,0 +1,16 @@
+
+{
+  "name": "fb-distribucion",
+  "version": "1.0.0",
+  "description": "Sistema de verificación de correo de FB DISTRIBUCION",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "nodemailer": "^7.0.5"
+  }
+}
